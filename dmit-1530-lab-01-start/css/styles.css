@@ -8,58 +8,66 @@
     headings and button: 'Fjalla One', sans-serif;
     body copy: 'Open Sans', sans-serif;
 */
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.container{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-h1,h2,.button{
-    font-family: 'Fjalla One', sans-serif;
-}
-
-:root{
+:root {
     --night:            #182222;
     --dark-slate-gray:  #405B5B;
     --french-gray:      #e2dfe7;
 }
 
-header img{
-    width: 100%;
-    height: auto;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
-header h1{
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1, h2, .button {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
     color: var(--dark-slate-gray);
     padding: 1rem;
-    font-size: 4rem;   
+    font-size: 4rem;
 }
 
-h2{
+h2 {
     font-size: 2.25rem;
     color: var(--dark-slate-gray);
     margin-bottom: 1rem;
 }
 
-h3{
+h3 {
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
-.img-flex{
+footer h2 {
+    font-size: 1.5rem;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.img-flex {
     display: flex;
     width: 50%;
     gap: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
-.button{
-    border:2px double var(--dark-slate-gray);
+.button {
+    font-size: 1.25rem;
+    border: 2px double var(--dark-slate-gray);
     color: var(--dark-slate-gray);
     display: inline-block;
     text-decoration: none;
