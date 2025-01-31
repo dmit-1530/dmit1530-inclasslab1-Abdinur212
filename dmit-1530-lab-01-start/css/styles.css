@@ -12,3 +12,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+    --night:            #182222;
+    --dark-slate-gray:  #405B5B;
+    --french-gray:      #e2dfe7;
+}
